@@ -36,7 +36,7 @@ const Header = ({ onSearch, searchQuery, setSearchQuery, isSearching }) => {
               {/* Full logo with tagline for medium and larger screens */}
               <div className="d-none d-md-block">
                 <img 
-                  src={`${process.env.PUBLIC_URL}/images/logo-big.png`} 
+                  src="/images/logo-big.png"
                   alt="Konnections IMAG" 
                   height="50"
                 />
